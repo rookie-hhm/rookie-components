@@ -1,0 +1,14 @@
+.r-el-menu {
+  // background-color: r
+  color: red;
+  font-size: 12px;
+  svg {
+    width: 1rem;
+    height: 1rem;
+    // margin-right: 10px;
+  }
+  ::v-deep .el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+  }
+}
