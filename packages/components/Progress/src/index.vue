@@ -27,6 +27,8 @@ const step = (timestamp: number) => {
     startTime = timestamp
   }
   const elapsed = timestamp - startTime
+  // const diff = props.percentage - currentPercentage.value
+  // const symbol = diff >= 0 ? 1 : -1
   const value = Math.abs(Math.floor((elapsed / props.animationDuration) * diff))
   let newVal = value
   if (preValue) {
@@ -43,6 +45,7 @@ const step = (timestamp: number) => {
 }
 let raf: TimeStamp = null
 const updatePercentage = (end: number | undefined) => {
+  debugger
   if (end) {
     diff = props.percentage - currentPercentage.value
     symbol = diff >= 0 ? 1 : -1

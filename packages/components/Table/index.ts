@@ -1,8 +1,9 @@
 import type { App } from 'vue'
 import Table from './src/index.vue'
+import withInstall from '../../utils/common'
+// Table.install = (app: App) => {
+//   app.component('r-table', Table)
+// }
+Table.name = 'r-table'
 
-Table.install = (app: App) => {
-  app.component('r-table', Table)
-}
-
-export default Table
+export default withInstall(Table)

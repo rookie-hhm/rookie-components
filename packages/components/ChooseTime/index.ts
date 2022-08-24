@@ -5,6 +5,4 @@ import withInstall from '../../utils/common'
 //   app.component('r-time', Time)
 // }
 Time.name = 'r-choose-time'
-console.log(Time, 'time')
-withInstall(Time)
-export default Time
+export default withInstall(Time)

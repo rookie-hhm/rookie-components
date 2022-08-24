@@ -1,8 +1,8 @@
 import type { App } from 'vue'
 import ChooseArea from './src/index.vue'
-
-ChooseArea.install = (app: App) => {
-  app.component('r-choose-area', ChooseArea)
-}
-
-export default ChooseArea
+import withInstall from '../../utils/common'
+// ChooseArea.install = (app: App) => {
+//   app.component('r-choose-area', ChooseArea)
+// }
+ChooseArea.name = 'r-choose-area'
+export default withInstall(ChooseArea)
