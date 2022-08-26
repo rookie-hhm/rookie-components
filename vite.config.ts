@@ -9,7 +9,7 @@ import dts from 'vite-plugin-dts'
 export default ({ mode }) => {
   return defineConfig({
   publicDir: false,
-  base: mode === 'production' ? '/docs/' : './',
+  base: mode === 'production' ? '/rookie-components/' : './',
   plugins: [
     vue(),
     vueJsx()
