@@ -1,1 +1,0 @@
-import{d as r,e as a,c as s,a as t,q as c,r as p,o as l}from"./index.d22801be.js";const g=r({__name:"Progress",setup(_){const e=a(100),n=()=>{e.value=40};return(i,m)=>{const o=p("r-progress");return l(),s("div",null,[t(o,{percentage:e.value,isAnimation:!0},null,8,["percentage"]),c("div",{onClick:n},"change")])}}});export{g as default};

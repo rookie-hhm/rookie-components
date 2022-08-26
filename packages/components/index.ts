@@ -1,4 +1,5 @@
 import type { App } from 'vue'
+import.meta.env
 // const modules = import.meta.globEager('./*/index.ts')
 // const componentList: any[] = []
 
