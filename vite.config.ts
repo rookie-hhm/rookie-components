@@ -11,6 +11,9 @@ export default defineConfig({
     vue(),
     vueJsx()
   ],
+  build: {
+    outDir: path.resolve(__dirname, 'docs')
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')

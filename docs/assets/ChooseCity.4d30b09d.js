@@ -1,0 +1,1 @@
+import{d as a,e as t,c,a as s,o as r,r as _}from"./index.d22801be.js";const h=a({__name:"ChooseCity",setup(l){t("");const o=e=>{console.log(e.name,"name")};return(e,m)=>{const n=_("r-choose-city");return r(),c("div",null,[s(n,{onChange:o})])}}});export{h as default};

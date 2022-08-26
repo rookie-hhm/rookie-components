@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper.cdc0426e.js";import{c,a as r,o as t,r as n}from"./index.d22801be.js";const s={};function _(a,m){const e=n("r-choose-time");return t(),c("div",null,[r(e)])}const l=o(s,[["render",_]]);export{l as default};
